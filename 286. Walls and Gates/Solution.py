@@ -10,5 +10,3 @@ class Solution:
                 if 0 <= i < m and 0 <= j < n and rooms[i][j] == 2147483647:
                     rooms[i][j] = step + 1
                     Q.append((i, j, step + 1))
-        
-        
